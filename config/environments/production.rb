@@ -83,4 +83,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  
+  # Added per Devise installation instrucitons
+  config.action_mailer.default_url_options = { host: 'sandy-finance-tracker.herokuapp.com' }
 end
