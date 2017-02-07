@@ -32,3 +32,22 @@
     background-color: darken(#d9534f, 20%) !important;
   }
 }
+
+.jumbotron {
+  background-image: asset-url('stock-market-ticker.jpg');
+  background-size: cover;
+}
+
+.action-box {
+  background-color: #16120c;
+  border: 1px solid #16120c;
+  color: #fff;
+  font-weight: bold;
+}
+
+footer {
+  margin: 45px;
+  padding: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
